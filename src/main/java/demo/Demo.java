@@ -37,5 +37,6 @@ public class Demo {
         newPerson.setAwesomeness(-8.12);
         em.persist(newPerson);
         em.getTransaction().commit();
+        //testing
     }
 }
